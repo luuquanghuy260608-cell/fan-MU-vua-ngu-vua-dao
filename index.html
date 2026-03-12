@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Fan MU Chuyên Ngữ</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+background-image:url("https://wallpapercave.com/wp/wp4056410.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+header{
+background:rgba(199,0,0,0.9);
+text-align:center;
+padding:30px;
+}
+
+.logo{
+width:120px;
+animation:spin 10s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+nav{
+background:black;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 20px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:red;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:rgba(0,0,0,0.6);
+}
+
+.hero h1{
+font-size:50px;
+text-shadow:0 0 20px red;
+}
+
+.members{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:60px;
+background:rgba(0,0,0,0.7);
+}
+
+.card{
+background:#111;
+padding:20px;
+border-radius:15px;
+width:220px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px red;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.players{
+padding:60px;
+text-align:center;
+background:rgba(0,0,0,0.7);
+}
+
+.players img{
+width:220px;
+margin:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.players img:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px red;
+}
+
+.gallery{
+padding:60px;
+text-align:center;
+background:rgba(0,0,0,0.8);
+}
+
+.gallery img{
+width:260px;
+margin:10px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px red;
+}
+
+footer{
+background:#c70101;
+text-align:center;
+padding:25px;
+font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img class="logo" src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg">
+
+<h1>Fan Manchester United</h1>
+<p>Lưu Quang Huy • Chấn Hưng • Khôi Nguyên</p>
+
+</header>
+
+<nav>
+
+<a href="#">Trang Chủ</a>
+<a href="#">Thành Viên</a>
+<a href="#">Cầu Thủ</a>
+<a href="#">Gallery</a>
+
+</nav>
+
+<section class="hero">
+
+<h1>GLORY GLORY MAN UNITED</h1>
+<p>Ba học sinh chuyên ngữ với chung niềm đam mê Manchester United 🔴</p>
+
+</section>
+
+<section class="members">
+
+<div class="card">
+<img src="huy.jpg">
+<h3>Lưu Quang Huy</h3>
+<p>Fan MU từ nhỏ 🔴</p>
+</div>
+
+<div class="card">
+<img src="hung.jpg">
+<h3>Chấn Hưng</h3>
+<p>Đam mê bóng đá</p>
+</div>
+
+<div class="card">
+<img src="nguyen.jpg">
+<h3>Khôi Nguyên</h3>
+<p>Glory Glory Man United</p>
+</div>
+
+</section>
+
+
+<section class="legends">
+<h2>Cầu Thủ Huyền Thoại Manchester United</h2>
+
+<div class="players">
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Ryan_Giggs_2011.jpg">
+<h3>Ryan Giggs</h3>
+<p>Biểu tượng trung thành của Manchester United với hơn 900 trận đấu.</p>
+</div>
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Paul_Scholes_2012.jpg">
+<h3>Paul Scholes</h3>
+<p>Tiền vệ huyền thoại với khả năng chuyền bóng và sút xa cực kỳ chính xác.</p>
+</div>
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Wayne_Rooney_2016.jpg">
+<h3>Wayne Rooney</h3>
+<p>Vua phá lưới mọi thời đại của Manchester United.</p>
+</div>
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/David_Beckham_2013.jpg">
+<h3>David Beckham</h3>
+<p>Nổi tiếng với những cú đá phạt và những đường tạt bóng đẳng cấp.</p>
+</div>
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Cristiano_Ronaldo_2018.jpg">
+<h3>Cristiano Ronaldo</h3>
+<p>Siêu sao từng giúp MU vô địch Champions League 2008.</p>
+</div>
+
+<div class="player">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Eric_Cantona_2011.jpg">
+<h3>Eric Cantona</h3>
+<p>Huyền thoại người Pháp, biểu tượng của MU trong thập niên 90.</p>
+</div>
+
+</div>
+</section>
+
+
+<section class="gallery">
+<h2>Gallery Manchester United</h2>
+
+<div class="gallery-grid">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Marcus_Rashford_2022.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Bruno_Fernandes_2021.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Old_Trafford_inside_2006.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Manchester_United_team_2008.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Manchester_United_Fans.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Manchester_United_Trophy.jpg">
+
+</div>
+</section>
+
+<footer>
+
+🔥 Website Fan MU - Học Sinh Chuyên Ngữ 🔥
+
+</footer>
+
+</body>
+</html>
